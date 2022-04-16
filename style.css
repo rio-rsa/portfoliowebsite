@@ -1,0 +1,389 @@
+body {
+	background-color: #202C39;
+}
+nav {
+	height: 6.5vw;
+}
+
+
+nav h3{
+	font-size: 1.45vw;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	color: #B8B08D;
+	position: absolute;
+	left: 12.4vw;
+
+}
+
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.25vw;
+	color: #F2D492;
+	list-style-type: none;
+	position: absolute;
+	right: 12.65vw;
+
+}
+
+nav li:hover{
+	color: white;
+	cursor: pointer;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.about h3{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.25vw;
+	line-height: 1.8vw;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+
+.about h1{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3.3vw;
+	line-height: 3.9vw;
+	color: #FFFFFF;
+	margin: 0;
+	
+}
+
+.about span{
+	position: relative;
+}
+
+.about span::after{
+	content: "Rio";
+	position: absolute;
+	font-size: 3.3vw;
+	line-height: 3.9vw;
+	left: 0;
+}
+
+.about span::before{
+	content: "";
+	background: rgba(184, 176, 141, 0.65);
+  	border-radius: 50px;
+  	background-repeat: no-repeat;
+  	background-size: 100% 50%;
+  	background-position: bottom;
+  	position: absolute;
+  	width: 105%;
+  	height: 30%;
+  	bottom: 0.5vw;
+    left: 0;
+}
+
+
+.about p{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 1.25vw;
+	width: 36vw;
+	text-align: center;
+}
+
+.about button{
+	background: linear-gradient(97.52deg, #F37E32 24.07%, #F29559 70.5%);
+	border-radius: 4px;
+	width: 11.4vw;
+	height: 2.55vw;
+	font-family: 'IBM Plex Sans';
+	font-weight: 700;
+	font-size: 0.9375vw;
+	line-height: 1.3vw;
+	font-style: normal;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+}
+
+.about button:hover{
+	filter: drop-shadow(0px 4px 25px rgba(242, 212, 146, 0.2));
+	cursor: pointer;
+}
+
+.about ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 0;
+
+}
+
+.about a{
+	color: #F2D492;
+}
+
+.about li{
+	list-style-type: none;
+	color: #F2D492;
+	padding: 0.4vw 0.8vw 0.4vw 0.8vw;
+	border-radius: 0.4vw;
+	margin-top: 1vw;
+	text-decoration: none;
+}
+
+.about a:hover{
+	color: #FDFDFD;
+}
+
+.about h4{
+	color: #B8B08D;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.9vw;
+	margin-top: 4vw;
+}
+
+
+.projects h1{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.5vw;
+	line-height: 3.9vw;
+	color: #FDFDFD;
+	text-align: center;
+	margin-top: 4vw;
+	padding-top: 2vw;
+	margin-bottom: 3vw;
+}
+
+hr{
+	background-color: #F2D492;
+	width: 4.8vw;
+	height: 0.05vw;
+	border: none;
+	margin-bottom: 3vw;
+}
+
+.project_cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 73.3vw;
+	height: 33vw;
+	margin: auto;
+}
+
+.card {
+	width: 22.2vw;
+	background-color: #202C39;
+	border-radius: 0.4vw;
+	height: 37vw;
+}
+
+.card img{
+	width: 18.7vw;
+	margin-left: 1.75vw;
+	margin-top: 1.75vw;
+	border-radius: 0.5vw;
+}
+
+.project_cards h3 {
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	color: #B8B08D;
+	font-size: 1.25vw;
+	text-align: center;
+}
+
+.card p {
+	margin-left: 1.75vw;
+	margin-right: 1.75vw;
+	text-align: center;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.94vw;
+	line-height: 1.4vw;
+}
+
+.card a{
+	margin: auto;
+	width: 6.25vw;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	color: #F2D492;
+	border: none;
+	font-size: 0.83vw;
+	outline: none;
+	background-color: #202C39;
+	display: flex;
+	margin-top: 2vw;
+	text-decoration: none;
+}
+
+.card a:hover{
+	cursor: pointer;
+}
+
+.card i{
+	margin-left: 0.15vw;
+	margin-top: 0.125vw;
+}
+
+.card p, .card li {
+
+	font-family: 'IBM Plex Sans';
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.card ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	width: 15.5vw;
+	margin: auto;
+
+}
+
+.card li {
+	background-color:#283845 ;
+	color: #97A3AC;
+	padding: 0.4vw 0.8vw 0.4vw 0.8vw;
+	border-radius: 0.4vw;
+}
+
+.contact h1{
+	text-align: center;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.5vw;
+	line-height: 3.9vw;
+	color: #FDFDFD;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 6vw;
+	margin-bottom: 3vw;
+}
+
+.identity{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 39.8vw;
+}
+
+.identity input{
+	width: 18vw;
+	padding-left: 1vw;
+	height: 2.87vw;
+	background-color: #283845;
+	outline: none;
+	border: none;
+	border-radius: 0.25vw;
+	font-size: 0.94vw;
+	font-family: 'IBM Plex Sans';
+	color: white;
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 39.8vw;
+
+}
+
+
+
+#message{
+	width: 38.8vw;
+	height: 15.5vw;
+	background-color: #283845;
+	outline: none;
+	border: none;
+	margin-top: 2vw;
+	border-radius: 0.25vw;
+	font-size: 0.94vw;
+	font-family: 'IBM Plex Sans';
+	color: white;
+	padding-left: 1vw;
+	padding-top: 1vw;
+}
+
+#message::-webkit-input-placeholder{
+	font-size: 0.94vw;
+	color: #78858F;
+	position: absolute;
+	top: 1vw;
+	left: 1vw;
+}
+
+.identity input::-webkit-input-placeholder{
+	font-size: 0.94vw;
+	color: #78858F;
+}
+
+
+form button{
+	background: linear-gradient(97.52deg, #F37E32 24.07%, #F29559 70.5%);
+	border-radius: 4px;
+	width: 9.5vw;
+	height: 2.55vw;
+	font-family: 'IBM Plex Sans';
+	font-weight: 700;
+	font-size: 0.9375vw;
+	line-height: 1.3vw;
+	font-style: normal;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	margin-top: 2vw;
+	margin-left: auto;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20vw;
+}
+
+.footer p{
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8vw;
+	color: white;
+}
