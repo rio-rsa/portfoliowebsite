@@ -32,10 +32,12 @@ function cardMouseOut(card) {
 	}
 }
 
+scrolldown = document.querySelector('.fa-chevron-circle-down');
 scrolls = document.querySelectorAll('nav > ul > li');
 projects = document.querySelector('.projects');
 contact = document.querySelector('.contact');
 
+scrolldown.addEventListener("click", navigateProjects, false)
 scrolls[0].addEventListener("click", navigateProjects, false);
 scrolls[1].addEventListener("click", navigateContacts, false);
 
